@@ -16,7 +16,7 @@ RUN set -eux \
   docker
 
 ARG TARGETARCH
-ARG GIT_LFS_VERSION=2.13.3
+ARG GIT_LFS_VERSION=3.2.0
 
 # required for multi-arch support, revert to package cloud after:
 # https://github.com/git-lfs/git-lfs/issues/4546
